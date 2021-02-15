@@ -1,0 +1,14 @@
+application.data-dir: /home/andikaharis/Documents
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:course_api
+    username: sa
+    password:
+  jpa.database-platform: org.hibernate.dialect.H2Dialect
+  messages.basename: i18n/messages
+  servlet:
+    multipart:
+      max-file-size: 900KB
+      max-request-size: 900KB
+
